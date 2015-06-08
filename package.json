@@ -1,0 +1,16 @@
+{
+  "name": "backbone-hello-world-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/nightwatch/bin/nightwatch -t tests/test_hello.js"
+  },
+  "dependencies": {
+    "nightwatch": "git://github.com/feedhenry/nightwatch.git#junit-test-reporting-instead-of-assertion-reporting",
+    "phantomjs": "1.9.16",
+    "selenium-server": "2.45.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
