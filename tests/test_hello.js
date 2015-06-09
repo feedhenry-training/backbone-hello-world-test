@@ -12,6 +12,7 @@ module.exports = {
       .click('button')
       .pause(1000)
       .assert.containsText('.hello-result', 'Hello Joe Bloggs')
+      .pause(600000)
       .end();
   }
 };
